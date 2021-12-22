@@ -12,9 +12,6 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-import androidx.appcompat.app.AppCompatActivity
-import com.example.smartfountain.R
-
 class LoginActivity : Activity() {
 
     // [START declare_auth]

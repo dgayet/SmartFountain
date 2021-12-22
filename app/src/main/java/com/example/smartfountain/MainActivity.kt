@@ -2,7 +2,6 @@ package com.example.smartfountain
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.smartfountain.R
 
 
 class MainActivity : AppCompatActivity() {
