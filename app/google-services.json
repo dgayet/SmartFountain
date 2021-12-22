@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "248051005599",
+    "project_id": "smart-fountain-d0d15",
+    "storage_bucket": "smart-fountain-d0d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248051005599:android:93ab50e81f629948404aaa",
+        "android_client_info": {
+          "package_name": "com.example.smartfountain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248051005599-5mq9st1b7abnc7k6r1b04kn3l1bui2u4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartfountain",
+            "certificate_hash": "3f0feca8a97d8aa5c703f1ffa142180165c8251c"
+          }
+        },
+        {
+          "client_id": "248051005599-alpakt1k2jeeknhjedmmi68lcrpsg5p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc4FStqutWwSs-OaE6UdA2ogU8m1NDeE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248051005599-alpakt1k2jeeknhjedmmi68lcrpsg5p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
