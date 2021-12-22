@@ -3,6 +3,10 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        // para MQTT
+        maven {
+            url "https://repo.eclipse.org/content/repositories/paho-releases/"
+        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
