@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">SmartFountain</string>
-    <string name="login_text">Login</string>
+    <string name="login_text">Login with Google Account</string>
     <string name="email_text">E-mail</string>
     <string name="password_text">Password</string>
+    <string name="logint_btn_text">LOGIN</string>
+    <string name="connect_text">Connect to your smart fountain with its ID</string>
+    <string name="water_level_text">Water Level</string>
+    <string name="water_fountain_text">Water Fountain</string>
 </resources>

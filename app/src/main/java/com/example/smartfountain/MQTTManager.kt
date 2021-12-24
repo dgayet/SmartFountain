@@ -137,11 +137,11 @@ class MQTTManager (val connectionParams: MQTTConnectionParams, val context: Cont
 
     }
 
-    fun publish(message:String){
+    fun publish(topic:String, message:String){
         try
         {
-            var msg = "Android says:" + message
-            client.publish(this.connectionParams.topic,msg.toByteArray(),0,false,null,object :IMqttActionListener{
+            var msg = message
+            client.publish(topic,msg.toByteArray(),0,false,null,object :IMqttActionListener{
                 override fun onSuccess(asyncActionToken: IMqttToken?) {
                     Log.w("Mqtt", "Publish Success!")
                     uiUpdater?.updateStatusViewWith("Published to Topic")
